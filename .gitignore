@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -154,4 +153,3 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
->>>>>>> 66597ae (first commit)
