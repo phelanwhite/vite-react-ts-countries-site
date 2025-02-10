@@ -6,7 +6,7 @@ const CountryCard = ({ data }: { data: CountryCardType }) => {
   return (
     <Link
       to={`/${data.cca2}`}
-      className="shadow rounded overflow-hidden bg-[--element-color]"
+      className="shadow hover:shadow-md rounded overflow-hidden bg-[--element-color]"
     >
       <div className="aspect-video">
         <img src={data.flags.png} alt={data.flags.alt} loading="lazy" />
